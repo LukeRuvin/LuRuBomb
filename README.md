@@ -25,9 +25,9 @@ To Use The Bomber Type The Following Commands In Termux:
 ```
 apt update && apt upgrade -y
 apt install git python -y
-git clone https://github.com/InukaAsith/infinitybomber.git
-cd infinitybomber
+git clone https://github.com/LukeRuvin/LuRuBomb.git
+cd LuRuBomb
 pip3 install -r requirements.txt
-python infinitybomber.py
+python LuRuBomb.py
 ```
 
