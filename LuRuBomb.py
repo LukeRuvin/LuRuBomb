@@ -178,18 +178,14 @@ if cho==1:
 																		domin(num,delay)
 																		count+=1
 																		prsent(count,num)
-																		if count< int(times):
-																			slmat(num,delay)
+																		if count<int(times):
+																			echan(num,delay)
 																			count+=1
 																			prsent(count,num)
 																			if count<int(times):
-																				echan(num,delay)
+																				oli(num,delay)
 																				count+=1
-																				prsent(count,num)
-																				if count<int(times):
-																					oli(num,delay)
-																					count+=1
-																					prsent(count,num)	
+																				prsent(count,num)	
 		else:
 			while True:
 				mega(num,delay)
@@ -199,9 +195,6 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				guru(num,delay)
-				count+=1
-				prsent(count,num)
-				slmat(num,count)
 				count+=1
 				prsent(count,num)
 				kangaroo(num,delay)
@@ -313,22 +306,18 @@ if cho==1:
 																			domin(num,delay)
 																			count+=1
 																			prsent(count,num)
-																			if count<int(times):
-																				slmat(num,delay)
+																			if count< int(times):
+																				mobself(num,delay)
 																				count+=1
 																				prsent(count,num)
-																				if count< int(times):
-																					mobself(num,delay)
+																				if count<int(times):
+																					echan(num,delay)
 																					count+=1
 																					prsent(count,num)
 																					if count<int(times):
-																						echan(num,delay)
+																						oli(num,delay)
 																						count+=1
 																						prsent(count,num)
-																						if count<int(times):
-																							oli(num,delay)
-																							count+=1
-																							prsent(count,num)
 		else:
 			while True:
 				dtamart(num,delay)
@@ -368,9 +357,6 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				flipkrt(num,delay)
-				count+=1
-				prsent(count,num)
-				slmat(num,count)
 				count+=1
 				prsent(count,num)
 				savari(num,delay)
@@ -458,18 +444,14 @@ if cho==1:
   																		domin(num,delay)
   																		count+=1
   																		prsent(count,num)
-  																		if count< int(times):
-  																			slmat(num,delay)
+  																		if count<int(times):
+  																			echan(num,delay)
   																			count+=1
   																			prsent(count,num)
   																			if count<int(times):
-  																				echan(num,delay)
+  																				oli(num,delay)
   																				count+=1
   																				prsent(count,num)
-  																				if count<int(times):
-  																					oli(num,delay)
-  																					count+=1
-  																					prsent(count,num)
 		else:
 			while True:
 				hutcliq(num,delay)
@@ -482,9 +464,6 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				guru(num,delay)
-				count+=1
-				prsent(count,num)
-				slmat(num,count)
 				count+=1
 				prsent(count,num)
 				kangaroo(num,delay)
@@ -588,18 +567,14 @@ if cho==1:
   																domin(num,delay)
   																count+=1
   																prsent(count,num)
-  																if count< int(times):
-  																	slmat(num,delay)
+  																if count<int(times):
+  																	echan(num,delay)
   																	count+=1
   																	prsent(count,num)
   																	if count<int(times):
-  																		echan(num,delay)
+  																		oli(num,delay)
   																		count+=1
   																		prsent(count,num)
-  																		if count<int(times):
-  																			oli(num,delay)
-  																			count+=1
-  																			prsent(count,num)
 		else:
 			while True:
 				yogo(num,delay)
@@ -636,9 +611,6 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				youcab(num,delay)
-				count+=1
-				prsent(count,num)
-				slmat(num,count)
 				count+=1
 				prsent(count,num)
 				nanasa(num,delay)
