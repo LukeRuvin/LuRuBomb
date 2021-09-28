@@ -172,24 +172,24 @@ if cho==1:
 																prsent(count,num)
 															        if count<int(times):
 																	nanasa(num,delay)
+																	count+=1
+																	prsent(count,num)
+																	if count<int(times):
+																		domin(num,delay)
 																		count+=1
 																		prsent(count,num)
 																		if count<int(times):
-																			domin(num,delay)
+																			slmat(num,delay)
 																			count+=1
 																			prsent(count,num)
-																			if count< int(times):
-																				slmat(num,delay)
+																			if count<int(times):
+																				echan(num,delay)
 																				count+=1
 																				prsent(count,num)
 																				if count<int(times):
-																					echan(num,delay)
+																					oli(num,delay)
 																					count+=1
-																					prsent(count,num)
-																					if count<int(times):
-																						oli(num,delay)
-																						count+=1
-																						prsent(count,num)	
+																					prsent(count,num)	
 		else:
 			while True:
 				mega(num,delay)
@@ -305,30 +305,30 @@ if cho==1:
 																	youcab(num,delay)
 																	count+=1
 																	prsent(count,num)
+																	if count<int(times):
+																		nanasa(num,delay)
+																		count+=1
+																		prsent(count,num)
 																		if count<int(times):
-																			nanasa(num,delay)
+																			domin(num,delay)
 																			count+=1
 																			prsent(count,num)
 																			if count<int(times):
-																				domin(num,delay)
+																				slmat(num,delay)
 																				count+=1
 																				prsent(count,num)
 																				if count< int(times):
-																					slmat(num,delay)
+																					mobself(num,delay)
 																					count+=1
 																					prsent(count,num)
-																					if count< int(times):
-																						mobself(num,delay)
+																					if count<int(times):
+																						echan(num,delay)
 																						count+=1
 																						prsent(count,num)
 																						if count<int(times):
-																							echan(num,delay)
+																							oli(num,delay)
 																							count+=1
 																							prsent(count,num)
-																							if count<int(times):
-																								oli(num,delay)
-																								count+=1
-																								prsent(count,num)
 		else:
 			while True:
 				dtamart(num,delay)
@@ -450,26 +450,26 @@ if cho==1:
   																youcab(num,delay)
   																count+=1
   																prsent(count,num)
+  																if count<int(times):
+  																	nanasa(num,delay)
+  																	count+=1
+  																	prsent(count,num)
   																	if count<int(times):
-  																		nanasa(num,delay)
+  																		domin(num,delay)
   																		count+=1
   																		prsent(count,num)
-  																		if count<int(times):
-  																			domin(num,delay)
+  																		if count< int(times):
+  																			slmat(num,delay)
   																			count+=1
   																			prsent(count,num)
-  																			if count< int(times):
-  																				slmat(num,delay)
+  																			if count<int(times):
+  																				echan(num,delay)
   																				count+=1
   																				prsent(count,num)
   																				if count<int(times):
-  																					echan(num,delay)
+  																					oli(num,delay)
   																					count+=1
   																					prsent(count,num)
-  																					if count<int(times):
-  																						oli(num,delay)
-  																						count+=1
-  																						prsent(count,num)
 		else:
 			while True:
 				hutcliq(num,delay)
@@ -580,26 +580,26 @@ if cho==1:
   														youcab(num,delay)
   														count+=1
   														prsent(count,num)
+  														if count<int(times):
+  															nanasa(num,delay)
+  															count+=1
+  															prsent(count,num)
   															if count<int(times):
-  																nanasa(num,delay)
+  																domin(num,delay)
   																count+=1
   																prsent(count,num)
-  																if count<int(times):
-  																	domin(num,delay)
+  																if count< int(times):
+  																	slmat(num,delay)
   																	count+=1
   																	prsent(count,num)
-  																	if count< int(times):
-  																		slmat(num,delay)
+  																	if count<int(times):
+  																		echan(num,delay)
   																		count+=1
   																		prsent(count,num)
   																		if count<int(times):
-  																			echan(num,delay)
+  																			oli(num,delay)
   																			count+=1
   																			prsent(count,num)
-  																			if count<int(times):
-  																				oli(num,delay)
-  																				count+=1
-  																				prsent(count,num)
 		else:
 			while True:
 				yogo(num,delay)
