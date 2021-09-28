@@ -182,10 +182,7 @@ if cho==1:
 																			echan(num,delay)
 																			count+=1
 																			prsent(count,num)
-																			if count<int(times):
-																				oli(num,delay)
-																				count+=1
-																				prsent(count,num)	
+																			
 		else:
 			while True:
 				mega(num,delay)
@@ -235,9 +232,6 @@ if cho==1:
 				prsent(count,num)
 				echan(num,delay)
 				count+=1
-				prsent(count,num)
-				oli(num,delay)
-				count+=2
 				prsent(count,num)
 	elif num[0:3] == '071' or num[0:3] == '070':
 		count=0
@@ -314,10 +308,7 @@ if cho==1:
 																					echan(num,delay)
 																					count+=1
 																					prsent(count,num)
-																					if count<int(times):
-																						oli(num,delay)
-																						count+=1
-																						prsent(count,num)
+																					
 		else:
 			while True:
 				dtamart(num,delay)
@@ -374,9 +365,7 @@ if cho==1:
 				echan(num,delay)
 				count+=1
 				prsent(count,num)
-				oli(num,delay)
-				count+=2
-				prsent(count,num)
+				
 	elif num[0:3] == '078' or num[0:3] == '072':
 		count=0
 		if times.isnumeric():
@@ -448,10 +437,7 @@ if cho==1:
   																			echan(num,delay)
   																			count+=1
   																			prsent(count,num)
-  																			if count<int(times):
-  																				oli(num,delay)
-  																				count+=1
-  																				prsent(count,num)
+  																			
 		else:
 			while True:
 				hutcliq(num,delay)
@@ -505,9 +491,7 @@ if cho==1:
 				echan(num,delay)
 				count+=1
 				prsent(count,num)
-				oli(num,delay)
-				count+=2
-				prsent(count,num)
+			
 	elif num[0:3] == '075':
 		count=0
 		if times.isnumeric():
@@ -571,10 +555,7 @@ if cho==1:
   																	echan(num,delay)
   																	count+=1
   																	prsent(count,num)
-  																	if count<int(times):
-  																		oli(num,delay)
-  																		count+=1
-  																		prsent(count,num)
+  																	
 		else:
 			while True:
 				yogo(num,delay)
@@ -622,9 +603,7 @@ if cho==1:
 				echan(num,delay)
 				count+=1
 				prsent(count,num)
-				oli(num,delay)
-				count+=2
-				prsent(count,num)
+)
 	print('\n'+bar+'\n')
 	time.sleep(0.90)
 	print(f'{Style.BRIGHT}{Fore.LIGHTGREEN_EX}\t[+] සාර්ථකව කෙලවීම අවසන් කරන ලදි!')
