@@ -238,9 +238,6 @@ if cho==1:
 				youcab(num,delay)
 				count+=1
 				prsent(count,num)
-				upay(num,delay)
-				count+=1
-				prsent(count,num)
 				nanasa(num,delay)
 				count+=1
 				prsent(count,num)
