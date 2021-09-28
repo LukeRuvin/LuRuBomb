@@ -170,8 +170,8 @@ if cho==1:
 																youcab(num,delay)
 																count+=1
 																prsent(count,num)
-																	if count<int(times):
-																		nanasa(num,delay)
+															        if count<int(times):
+																	nanasa(num,delay)
 																		count+=1
 																		prsent(count,num)
 																		if count<int(times):
@@ -189,7 +189,7 @@ if cho==1:
 																					if count<int(times):
 																						oli(num,delay)
 																						count+=1
-																						prsent(count,num)
+																						prsent(count,num)	
 		else:
 			while True:
 				mega(num,delay)
