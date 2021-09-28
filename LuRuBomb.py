@@ -170,10 +170,6 @@ if cho==1:
 																youcab(num,delay)
 																count+=1
 																prsent(count,num)
-																if count<int(times):
-																	upay(num,delay)
-																	count+=1
-																	prsent(count,num)
 																	if count<int(times):
 																		nanasa(num,delay)
 																		count+=1
@@ -309,10 +305,6 @@ if cho==1:
 																	youcab(num,delay)
 																	count+=1
 																	prsent(count,num)
-																	if count<int(times):
-																		upay(num,delay)
-																		count+=1
-																		prsent(count,num)
 																		if count<int(times):
 																			nanasa(num,delay)
 																			count+=1
@@ -387,9 +379,6 @@ if cho==1:
 				youcab(num,delay)
 				count+=1
 				prsent(count,num)
-				upay(num,delay)
-				count+=1
-				prsent(count,num)
 				nanasa(num,delay)
 				count+=1
 				prsent(count,num)
@@ -461,10 +450,6 @@ if cho==1:
   																youcab(num,delay)
   																count+=1
   																prsent(count,num)
-  																if count<int(times):
-  																	upay(num,delay)
-  																	count+=1
-  																	prsent(count,num)
   																	if count<int(times):
   																		nanasa(num,delay)
   																		count+=1
@@ -532,9 +517,6 @@ if cho==1:
 				youcab(num,delay)
 				count+=1
 				prsent(count,num)
-				upay(num,delay)
-				count+=1
-				prsent(count,num)
 				nanasa(num,delay)
 				count+=1
 				prsent(count,num)
@@ -598,10 +580,6 @@ if cho==1:
   														youcab(num,delay)
   														count+=1
   														prsent(count,num)
-  														if count<int(times):
-  															upay(num,delay)
-  															count+=1
-  															prsent(count,num)
   															if count<int(times):
   																nanasa(num,delay)
   																count+=1
@@ -658,9 +636,6 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				youcab(num,delay)
-				count+=1
-				prsent(count,num)
-				upay(num,delay)
 				count+=1
 				prsent(count,num)
 				slmat(num,count)
