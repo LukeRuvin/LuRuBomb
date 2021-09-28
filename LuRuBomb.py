@@ -603,7 +603,6 @@ if cho==1:
 				echan(num,delay)
 				count+=1
 				prsent(count,num)
-)
 	print('\n'+bar+'\n')
 	time.sleep(0.90)
 	print(f'{Style.BRIGHT}{Fore.LIGHTGREEN_EX}\t[+] සාර්ථකව කෙලවීම අවසන් කරන ලදි!')
