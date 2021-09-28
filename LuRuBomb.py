@@ -655,7 +655,7 @@ if cho==1:
 				prsent(count,num)
 	print('\n'+bar+'\n')
 	time.sleep(0.90)
-	print(f'{Style.BRIGHT}{Fore.LIGHTGREEN_EX}\t[+] සාර්ථකව කෙලවීම අවසන් කරන ලදි!!')
+	print(f'{Style.BRIGHT}{Fore.LIGHTGREEN_EX}\t[+] සාර්ථකව කෙලවීම අවසන් කරන ලදි!')
 	time.sleep(0.75)
 	ag=input(f'\t{Style.BRIGHT}{random.choice(fore)}[?] තා කාටහරි කෙලවන්න තියෙද?(y/n) ')
 	if ag == 'Y' or ag == 'y':
