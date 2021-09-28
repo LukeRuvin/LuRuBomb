@@ -170,7 +170,7 @@ if cho==1:
 																youcab(num,delay)
 																count+=1
 																prsent(count,num)
-															        if count<int(times):
+																if count<int(times):
 																	nanasa(num,delay)
 																	count+=1
 																	prsent(count,num)
@@ -178,7 +178,7 @@ if cho==1:
 																		domin(num,delay)
 																		count+=1
 																		prsent(count,num)
-																		if count<int(times):
+																		if count< int(times):
 																			slmat(num,delay)
 																			count+=1
 																			prsent(count,num)
