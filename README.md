@@ -25,14 +25,20 @@ Run These Commands To Run JE Bomber
 To Use The Bomber Type The Following Commands In Termux:
 ```
 apt update && apt upgrade -y
+```
+```
 apt install git python -y
+```
+```
 git clone https://github.com/LukeRuvin/LuRuBomb.git
+```
+```
 cd LuRuBomb
+```
+```
 pip3 install -r requirements.txt
+```
+```
 python LuRuBomb.py
-```
-```
-apt update && apt upgrade -y
-apt install git python -y
 ```
 
